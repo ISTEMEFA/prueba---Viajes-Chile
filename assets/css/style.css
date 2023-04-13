@@ -1,0 +1,155 @@
+.contenedor {
+    background-color: #000;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+.header {
+    background-color: #0ea2ae;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    background-color: #0ea2ae;
+}
+
+#navbarNav {
+    flex-grow: 0;
+}
+
+.navbar-brand {
+    color: aliceblue;
+}
+
+#navbarNav ul li a {
+    color: aliceblue;
+}
+
+.color-generico {
+    background-color: #0ea2ae;
+}
+
+.color-generico-2 {
+    background-color: #000;
+    color: aliceblue;
+}
+
+.contenedor-titulo {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.contenedor-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destacados img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    margin: 0.3rem;
+    border: none;
+}
+
+.card-body {
+    padding: 0;
+
+
+}
+
+.destacados {
+    height: 22rem;
+}
+
+.container-form {
+    margin: 3.5rem;
+}
+
+.mb-4 {
+    margin-right: 3rem;
+}
+
+.contenedor-texto {
+    height: 200px;
+    width: 100%;
+}
+
+
+.btn {
+    background-color: #0ea2ae;
+    color: aliceblue;
+}
+
+.iconos-genericos {
+    display: flex;
+    justify-content: center;
+    background-color: #0ea2ae;
+    color: aliceblue;
+    padding: 0.3rem;
+}
+
+.footer-contenedor {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0ea2ae;
+    color: aliceblue;
+    height: 4rem;
+}
+
+
+.form-label {
+    color: aliceblue;
+}
+
+.form {
+    margin-bottom: 3rem;
+}
+
+.footer-icons {
+color: aliceblue;
+}
+@media (max-width: 767px) {
+
+    .contenido-header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .section-body-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-content: space-between;
+    }
+    .destacados{
+        margin:0;
+        
+    }
+    .card-body {
+    padding:2% 4%;
+    }
+
+
+}
+
